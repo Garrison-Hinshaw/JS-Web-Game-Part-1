@@ -1,11 +1,11 @@
 function newImage(link, left, bottom){
-    let picture = document.createElement('img')
-    picture.src = url
-    picture.style.position = 'fixed'
-    picture.style.left = '100px'
-    picture.style.bottom = '100px'
-    document.body.append(picture)
-    return picture
+    let image = document.createElement('img')
+    image.src = url
+    image.style.position = 'fixed'
+    image.style.left = '100px'
+    image.style.bottom = '100px'
+    document.body.append(image)
+    return image
 }
 
 let greenCharacter = document.createElement('img')
